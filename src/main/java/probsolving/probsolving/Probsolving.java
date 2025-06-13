@@ -96,6 +96,31 @@ public class Probsolving {
         System.out.println();
         
         
+        System.out.println(" Remove Duplicates from array. ");
+        int[] arrWithduplicate = {1 , 2 , 3 , 4 , 5 , 1 , 2};
+        RemoveDuplicates obiect4 = new RemoveDuplicates();
+        obiect4.removeDup(arrWithduplicate);
+        System.out.println("------*************************************-------");
+        System.out.println();
+        
+        
+        System.out.println(" Removing all occurences of a given element from array. ");
+        int[] arrOccurrences = {10 , 10 ,20 ,30 ,40,10};
+        int key = 10;
+        RemoveAllOccurrences obiect5 = new RemoveAllOccurrences();
+        obiect5.RemoveOccurrences(arrOccurrences , key);
+        System.out.println("------*************************************-------");
+        System.out.println();
+        
+        
+        String sss ="ghgk";
+       
+        System.out.println(" Reverse String. ");
+        Reverse revese = new Reverse();
+        revese.reverseByIterating(sss);
+        System.out.println("------*************************************-------");
+        System.out.println();
+        
     } 
     
     
